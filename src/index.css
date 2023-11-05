@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+.leftsection{
+  float: left;
+  width: 50%;
+}
+.rightsection{
+  float:right;
+  width: 50%;
+  
+}
+
+.leftsection h1, .rightsection h1{
+  font-family: 'Poppins', sans-serif;
+}
+
+.leftsection p, .rightsection p{
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+.givespace{
+  height: 500px;
+  top:100px;
+}
+
+.leftsection .givespace{
+  height: 500px;
+}
+
+.leftsection .givespace{
+  padding-top: 100px;
+}
+
+.centerise{
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: center;
+  height: 600px;
+}
+
+.homeSection{
+  height: 950px;
+  background: linear-gradient(145deg, rgb(173, 238, 251) 14%, rgb(40, 150, 234) 49%, rgba(9,9,121,1) 100%, rgb(87, 80, 233) 100%);
+  position: relative;
+}
+
+.homeSection .centerleft{
+  margin-top: 15%;
+  text-align: center;
+  float: left;
+  max-width: 40%;
+  font-family: 'Raleway', sans-serif;
+}
+
+.homeSection .centerright{
+  margin-top: 12%;
+  text-align: center;
+  float: right;
+  max-width: 40%;
+  font-family: 'Open Sans', sans-seri
+}
+
+.homeSection .centerright p{
+  color: honeydew;
+}
+
+/* .homeSection .centerright .littlemiddle{
+  padding-left: 40%;
+  padding-right: 50%;
+  border-color: white;
+  text-align: left;
+} */
+
+.projectsSection{
+  padding-bottom: 600px;
+}
+
+.projectsSection h1{
+  text-align: center  ;
+}
+
+.projectsSection h2{
+  font-family: 'Open Sans', sans-seri
+}
+
+.projectsSection .center{
+  text-align: center;
+  padding-bottom: 300px;
+}
+
+.left{
+  position: absolute;
+  right: 50%;
+  width: 50%;
+}
+
+.right{
+  position: relative;
+  left: 75%;
+}
+
+
+/* 
+.projects{
+  padding-left: 25%;  
+  padding-right: 25%;
+} */
