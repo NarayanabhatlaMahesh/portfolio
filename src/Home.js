@@ -173,10 +173,15 @@ function Home(){
         </section>                
     </section>
         <section class='footer' style={{height : window.innerHeight/4}} >
-            <p>mae using</p>
-            <div style={{float:'left', Width:window.innerHeight}}>
-                <img height={'50%'} width={'50%'} style={{float:'left',display:'block'}} src="https://w7.pngwing.com/pngs/235/872/png-transparent-react-computer-icons-redux-javascript-others-logo-symmetry-nodejs-thumbnail.png"></img>
-            </div>
+            <footer style={{width:'100%'}}>
+                <div style={{float:'left', width:'50%'}} >
+                    <p style={{opacity:'50%'}} >@ 2023 Mahesh Narayanabhatla</p>
+                    <p style={{opacity:'50%'}} >Made using React</p>
+                </div>
+                <div style={{float:'right', width:'50%'}} >
+                    <p style={{float:'right', opacity:'50%'}} >Instagram </p>
+                </div>
+            </footer>
         </section>
     
     </>
