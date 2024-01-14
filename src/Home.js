@@ -12,6 +12,8 @@ import linear from './linearreg.png';
 import ocrwtp from './ocrwtp.jpg';
 import weatherapp from './weatherapp.png';
 import CardFade from './cardfade';
+import SkillCard from './skillcard';
+import html from './html.png';
 
 function Home(){
     
@@ -69,7 +71,7 @@ function Home(){
     <>
     <section class="homeSection" style={{height : window.innerHeight}} >
     <Navbaar/>
-        <Card style={{marginLeft:'15%' , marginRight:'15%', marginTop:'10%', height:window.innerHeight<700?('65%'):('50%'), boxShadow: 'rgba(0, 0, 0, 0.45) 0px 25px 20px -20px'}}>
+        <Card style={{marginLeft:'15%' , marginRight:'15%', marginTop:'10%', position:'relative' , height:window.innerHeight<700?('65%'):('50%'), boxShadow: 'rgba(0, 0, 0, 0.45) 0px 25px 20px -20px'}}>
             <div class="centerleft" style={  (window.innerWidth>425? (window.innerWidth>770? (window.innerWidth>1000?{marginTop:'15%',marginLeft:'10%'}:{marginTop:'40%', marginLeft:'15%'}) :margintop) : martp)}>
                 <h1 class="animate__animated animate__fadeInLeft" style={{letterSpacing:window.innerWidth<768?'2px':'7px', textAlign:'center', maxWidth:'100%', width:'100%'}}> Mahesh Narayanabhatla</h1>
             </div>
@@ -99,7 +101,23 @@ function Home(){
 
 
     <section class='skills'>
-
+        <div style={{paddingLeft:'25%',paddingRight:'25%', dislpay:'grid', paddingTop:'5%', paddingBottom:'5%'}}>
+            <Card style={{ boxShadow: 'rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px', }}>
+                <div style={{paddingLeft:'42%'}} ><h4 >My Skillset</h4></div>
+                <div className="gridContainer" >
+                    <SkillCard skill="html" link={html} />
+                    <SkillCard skill="Python" />
+                    <SkillCard skill="django" />
+                    <SkillCard skill="fastAPI" />
+                    <SkillCard skill="flask" />
+                    <SkillCard skill="scikit learn" />
+                    <SkillCard skill="git" />
+                    <SkillCard skill="ML" />
+                    <SkillCard skill="deep learning" />
+                </div>
+            </Card>
+            
+        </div>
     </section>
 
 
@@ -179,7 +197,7 @@ function Home(){
                     <p style={{opacity:'50%'}} >Made using React</p>
                 </div>
                 <div style={{float:'right', width:'50%'}} >
-                    <p style={{float:'right', opacity:'50%'}} >Instagram </p>
+                   <a href="https://instagram.com/letsalllgorythm?igshid=eDJ2MTVnMTg4dDcz"> <p  style={{float:'right', opacity:'50%'}} >Instagram </p> </a>
                 </div>
             </footer>
         </section>

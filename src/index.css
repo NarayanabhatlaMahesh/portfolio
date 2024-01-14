@@ -13,7 +13,14 @@ code {
     monospace;
 }
 
+.gridContainer{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(125px, 10fr));
+  row-gap: 5ch;
+  column-gap: 5ch;
+  padding: 5%;
 
+}
 
 .leftsection{
   float: left;
