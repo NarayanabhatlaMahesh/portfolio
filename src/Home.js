@@ -90,19 +90,16 @@ function Home(){
                         <li>Machine Learning Engineer</li>
                         <li>Full Stack Developer</li>
                     </ul>
-                    
-
-
-
  </h4>
             </div>
         </Card>
     </section>
 
 
-    <section class='skills'>
-        <div style={{paddingLeft:'25%',paddingRight:'25%', dislpay:'grid', paddingTop:'5%', paddingBottom:'5%'}}>
-            <Card style={{ boxShadow: 'rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px', }}>
+    <section class='skills' >
+        <div class='justify-content-center' style={{height : window.innerHeight, dislpay:'grid', backgroundColor:'#99dbff',
+backgroundImage:'radial-gradient(at 6% 64%, hsla(332,77%,62%,1) 0px, transparent 50%),radial-gradient(at 44% 62%, hsla(151,72%,62%,1) 0px, transparent 50%),radial-gradient(at 13% 89%, hsla(110,86%,62%,1) 0px, transparent 50%),radial-gradient(at 77% 39%, hsla(185,93%,75%,1) 0px, transparent 50%),radial-gradient(at 47% 19%, hsla(221,61%,75%,1) 0px, transparent 50%),radial-gradient(at 67% 83%, hsla(45,98%,72%,1) 0px, transparent 50%),radial-gradient(at 40% 77%, hsla(173,79%,79%,1) 0px, transparent 50%)'}}>
+            <Card style={{maxWidth:'65%', boxShadow: 'rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px', }}>
                 <div style={{paddingLeft:'42%'}} ><h4 >My Skillset</h4></div>
                 <div className="gridContainer" >
                     <SkillCard skill="html" link={html} />
@@ -130,7 +127,7 @@ function Home(){
 
 
 
-    <section class="projectsSection">
+    <section class="projectsSection" style={{backgroundColor:'#ffce99',backgroundImage:'radial-gradient(at 44% 91%, hsla(231,78%,64%,1) 0px, transparent 50%),radial-gradient(at 0% 63%, hsla(113,98%,70%,1) 0px, transparent 50%),radial-gradient(at 32% 19%, hsla(348,98%,66%,1) 0px, transparent 50%),radial-gradient(at 76% 10%, hsla(133,67%,60%,1) 0px, transparent 50%),radial-gradient(at 86% 69%, hsla(341,81%,60%,1) 0px, transparent 50%),radial-gradient(at 32% 2%, hsla(133,99%,64%,1) 0px, transparent 50%),radial-gradient(at 52% 68%, hsla(221,75%,77%,1) 0px, transparent 50%)'}}>
         <h2  style={{fontSize:34, textAlign:'center', paddingBottom:150}}>My Projects</h2>
         
         <section class="leftsection"  >
