@@ -13,9 +13,9 @@ function Project(props)
 
     return(
         <>
-        <div className={`fade-in-section ${isVisible ? 'is-visible' : ''}`} ref={domRef}>        
+        <div  className={`fade-in-section ${isVisible ? 'is-visible' : ''}`} ref={domRef}>        
             
-            <h1>{props.name}</h1>
+            <h1 className="my-auto" >{props.name}</h1>
         </div>
         <p>{props.description}</p>
         </>
