@@ -18,7 +18,7 @@ function CardFade(props){
         <>
         <div  className={`fade-in-section ${isVisible ? 'is-visible' : ''}`} ref={domRef} >
             <div class="centerise" > <div> <Card style={{boxShadow: 'rgba(149, 157, 165, 0.2) 0px 8px 24px'}}>
-                <img alt="no image" variant="top" src={props.image} height={window.innerWidth<790?'75px':"250px"} />
+                <img alt="no" variant="top" src={props.image} height={window.innerWidth<790?'75px':"250px"} />
                 <Project description={props.text} />
             </Card></div></div>
         </div>
