@@ -1,6 +1,6 @@
 import '@coreui/coreui/dist/css/coreui.min.css';
-import Project from './Project';
-import Navbaar from './Nav';
+import Project from './components/Project';
+import Navbaar from './components/Nav';
 import 'animate.css';
 import React from 'react';
 import picture from './picture.jpg';
@@ -11,8 +11,8 @@ import blogpic from './blogpic.png';
 import linear from './linearreg.png';
 import ocrwtp from './ocrwtp.jpg';
 import weatherapp from './weatherapp.png';
-import CardFade from './cardfade';
-import SkillCard from './skillcard';
+import CardFade from './components/cardfade';
+import SkillCard from './components/skillcard';
 import html from './html.png';
 
 function Home(){
@@ -106,14 +106,13 @@ function Home(){
                 <div style={{paddingLeft:'42%'}} ><h4 >My Skillset</h4></div>
                 <div className="gridContainer" >
                     <SkillCard skill="html" link={html} />
-                    <SkillCard skill="Python" />
-                    <SkillCard skill="django" />
-                    <SkillCard skill="fastAPI" />
-                    <SkillCard skill="flask" />
-                    <SkillCard skill="scikit learn" />
-                    <SkillCard skill="git" />
-                    <SkillCard skill="ML" />
-                    <SkillCard skill="deep learning" />
+                    <SkillCard skill="Python" link={'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Python.svg/800px-Python.svg.png'} />
+                    <SkillCard skill="django" link={'https://ucarecdn.com/a915a4be-9676-4f70-84cd-76f9183d08f7/-/resize/1050/'} />
+                    <SkillCard skill="fastAPI" link={'https://avatars.githubusercontent.com/u/156354296?s=280&v=4'} />
+                    <SkillCard skill="flask" link={'https://user-images.githubusercontent.com/51070104/268566349-c41e65a5-2ab9-4b54-8cbc-350ab6da746c.png'} />
+                    <SkillCard skill="scikit learn" link={'https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/1200px-Scikit_learn_logo_small.svg.png'} />
+                    <SkillCard skill="git" link={'https://yt3.googleusercontent.com/PKRBxhCiGa8Y0vPmHa1E2cdjpLhUq2Pl-gESwP7kk2plGgxLdsbjyTd9VjcJwBMiY0HQ8bvx5Q=s900-c-k-c0x00ffffff-no-rj'} />
+                    <SkillCard skill="pytorch" link={"https://venturebeat.com/wp-content/uploads/2019/06/pytorch-e1576624094357.jpg?w=1024?w=1200&strip=all"} />
                 </div>
             </Card>
             
