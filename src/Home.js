@@ -91,11 +91,8 @@ function Home() {
                                 <li>Software Developer</li>
                                 <li>Full Stack Developer</li>
                             </ul>
-
-
-
-
                         </h4>
+                        <button href='https://www.linkedin.com/in/maheshnarayanabhatla/' onClick={()=>window.location='https://www.linkedin.com/in/maheshnarayanabhatla/'} className='btn btn-secondary' >linkedin</button>
                     </div>
                 </Card>
             </section>
