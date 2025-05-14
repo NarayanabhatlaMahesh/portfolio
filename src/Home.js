@@ -93,6 +93,7 @@ function Home() {
                             </ul>
                         </h4>
                         <button href='https://www.linkedin.com/in/maheshnarayanabhatla/' onClick={()=>window.location='https://www.linkedin.com/in/maheshnarayanabhatla/'} className='btn btn-secondary' >linkedin</button>
+                        <button href='https://github.com/NarayanabhatlaMahesh' onClick={()=>window.location='https://github.com/NarayanabhatlaMahesh'} className='btn btn-secondary' >GitHub</button>
                     </div>
                 </Card>
             </section>
